@@ -9,6 +9,7 @@ import { RiCloseLargeFill } from "react-icons/ri";
 
 
 
+
 const navLinks =[
   {href:"#about", label:"About"},
   {href:"#projects", label:"Projects"},
@@ -23,7 +24,7 @@ export const Navbar = () => {
 
 
   return (
-    <header className='fixed top-0 left-0 right-0 bg-transparent py-5'>
+    <header className='fixed top-0 left-0 right-0 bg-transparent py-5 z-50'>
       <nav className='container mx-auto px-6 flex items-center justify-between'>
         <a href='#' className='text-xl font-bold tracking-tight hover:text-primary flex gap-0.5'>
           <img src={Logo} alt="#"/>Anick<span></span>
@@ -46,7 +47,7 @@ export const Navbar = () => {
 
         {/* CTA Button */}
         <div className='hidden md:block'>
-          <Button size="sm">Contact Me</Button>
+          <Button size="sm" className='cursor-pointer font-bold'>Contact Me</Button>
         </div>
 
 
