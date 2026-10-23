@@ -1,6 +1,9 @@
 import React from 'react'
 import { Button } from '../Components/Button'
 import { FaArrowRight } from "react-icons/fa6";
+import { AnimatedBorderButton } from '../Components/AnimatedBorderButton';
+
+
 
 
 
@@ -66,8 +69,10 @@ export const Hero = () => {
               </p>
             </div>
             {/* CTAs */}
-            <div>
+            <div className='flex flex-wrap gap-4 animate-fade-in animation-delay-300'>
               <Button size='lg' className='cursor-pointer font-bold'>Contact Me <FaArrowRight className='w-5 h-5'/></Button>
+              <AnimatedBorderButton />
+              
             </div>
           </div>
           {/* Right Column - Profile Image */}
