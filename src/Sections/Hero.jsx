@@ -5,6 +5,7 @@ import { AnimatedBorderButton } from '../Components/AnimatedBorderButton';
 import { LuGithub} from "react-icons/lu";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
+import { Skills } from '../Components/Skills';
 
 
 
@@ -125,6 +126,8 @@ export const Hero = () => {
           </div>
 
         </div>
+        {/* Skills Section */}
+        <Skills/>
       </div>
       
     </section>
