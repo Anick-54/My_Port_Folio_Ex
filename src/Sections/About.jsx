@@ -8,9 +8,10 @@ export const About = () => {
     <section>
       <div>
         <div>
-          
+
           {/* Left Column */}
           <div>
+            
             <span>About Me</span>
           </div>
         </div>
