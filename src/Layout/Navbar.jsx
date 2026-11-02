@@ -77,6 +77,7 @@ export const Navbar = () => {
                 <a
                   href={link.label}
                   key={index}
+                  onClick={()=> setIsMobileMenuOpen(false)}
                   className="text-lg text-muted-foreground hover:text-foreground "
                 >  
                   {link.label}
