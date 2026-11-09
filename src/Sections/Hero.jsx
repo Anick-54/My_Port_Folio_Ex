@@ -10,8 +10,6 @@ import { Skills } from '../Components/Skills';
 
 
 
-
-
 export const Hero = () => {
   return (
     <>
