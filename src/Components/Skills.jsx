@@ -23,6 +23,9 @@ const skills = [
   "GitHub Actions"
 ];
 
+
+
+
 export const Skills = () => {
   return (
     <section>
