@@ -24,8 +24,6 @@ const skills = [
 ];
 
 
-
-
 export const Skills = () => {
   return (
     <section>
