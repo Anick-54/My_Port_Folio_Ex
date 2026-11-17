@@ -7,7 +7,6 @@ import { RiCloseLargeFill } from "react-icons/ri";
 
 
 
-
 const navLinks =[
   {href:"#about", label:"About"},
   {href:"#projects", label:"Projects"},
